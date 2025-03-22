@@ -265,20 +265,9 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.qcom.rc \
     init.qcom.usb.rc \
-    init.target.rc \
     init.xiaomi.rc \
     init.recovery.qcom.rc \
-    ueventd.qcom.rc
-
-PRODUCT_PACKAGES += \
-    init.class_main.sh \
-    init.qcom.sh \
-    init.qcom.early_boot.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.qseecomd.sh \
-    init.qcom.sensors.sh
 
 # RenderScript
 PRODUCT_PACKAGES += \
